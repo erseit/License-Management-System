@@ -143,7 +143,7 @@ class AddUser extends React.Component {
               this.setState({ showAddUser: false });
               this.showAddUserBox();
             }}
-            style={{ width: "70px", height: "80px", color: "#193058" }}
+            style={{ width: "70px", height: "80px", color: "#193058", cursor : "pointer" }}
           >
             Add User
           </AddBoxIcon>
