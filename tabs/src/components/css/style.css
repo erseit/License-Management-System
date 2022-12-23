@@ -1,0 +1,483 @@
+body {
+	font-family: euclid_circular_a,arial,source sans pro,helvetica neue,helvetica,arial,sans-serif;
+	text-rendering: optimizeLegibility;
+    font-size: 16px;
+    line-height: 24px;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	text-align: left;
+	background-color: #193058;
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: 5px 5px 5px gray;
+	position: fixed;
+	font-family: euclid_circular_a,arial,source sans pro,helvetica neue,helvetica,arial,sans-serif;
+	z-index: 10;
+}
+
+header>h1,
+h4 {
+	margin-left: 1%;
+}
+
+
+.divLogOut {
+	width: 350px;
+	display: flex;
+	flex-direction: row-reverse;
+	float: right;
+	margin-top: -3%;
+}
+
+.buttonLogOut {
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	background-color: unset;
+	background-image: url("../images/logout.png");
+}
+
+.infoLogOut {
+	width: 200px;
+	height: 100px;
+	background-color: #19547b;
+	margin-top: -5%;
+	margin-block-end: 5%;
+	border-radius: 10px;
+}
+
+.infoLogOut>p {
+	color: primary;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+}
+
+
+.divCompaniesWithUsers {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid rgb(216, 220, 222);
+	width: 80%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+}
+
+.divCompanyNameWithUsers {
+	margin-top: 2%;
+	font-size: larger;
+	font-weight: bold;
+}
+.httpError {
+	color: red
+}
+
+.divSubmitButtons {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+.divLeftButtons {
+	display: flex;
+	width: 80px;
+	background-color: #193058;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	position: fixed;
+	padding-block-end: 1.5%;
+}
+
+.divLeftButton {
+	display: flex;
+	justify-content: left;
+	width: 200px;
+	align-items: center;
+	text-align: center;
+	margin-block-start: 20px;
+	margin-inline-start: 12.5%;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #417dc1;
+	border-bottom: 5px solid transparent;
+}
+
+.buttonName {
+	background-color: #417dc1;
+	color: white;
+	height: 30px;
+	width: 110px;
+	border-radius: 5px;
+	padding-block: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttonCustomers {
+	height: 60px;
+	background-image: url("../images/customers.png");
+	background-size: cover;
+}
+
+.buttonCompanies {
+	height: 60px;
+	background-image: url("../images/companies.png");
+	background-size: cover;
+}
+
+.buttonAddCustomer {
+	height: 64px;
+	background-image: url("../images/plus.png");
+	background-size: cover;
+}
+
+.buttonSettings {
+	height: 65px;
+	background-image: url("../images/settings.png");
+	background-size: cover;
+}
+
+.buttonUsers {
+	height: 60px;
+	background-image: url("../images/customers.png");
+	background-size: cover;
+}
+
+.buttonContracts {
+	height: 65px;
+	background-image: url("../images/contracts.png");
+	background-size: cover;
+
+}
+
+.buttonAddCompany {
+	margin-top: 2%;
+}
+
+.addCompanyBox {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	backface-visibility: hidden;
+	margin-block: 3%;
+	margin-inline: -1%;
+}
+
+.addCompany {
+	width: 100%;
+	min-height: fit-content;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loadPage {
+	background: ghostwhite;
+	min-height: 250vh;
+}
+
+.divCompanies {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	min-height: fit-content;
+	margin: 1%;
+	margin-inline-start: 3%;
+	padding-bottom: 100px;
+}
+
+.divCompanyBig {
+	width: 100%;
+	min-height: fit-content;
+	border-radius: 10px;
+	border: 1px solid rgb(216, 220, 222);
+	margin: 5px;
+	padding-bottom: 10px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.divCompany {
+	width: 100%;
+	min-height: fit-content;
+	display: flex;
+}
+
+.divCompanyLeft {
+	width: 90%;
+	display: flex;
+	height: fit-content;
+	justify-content:space-around;
+}
+
+.divCompanyRight {
+	display: flex;
+	flex-direction: column;
+	padding-left: 5%;
+}
+
+.divCompanyRightButtons {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+}
+
+.companyInfos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.buttonsCompanyBoxBottom {
+	display: flex;
+	flex: 1;
+	justify-content: space-evenly;
+	padding-top: 5%;
+	margin-inline-start: 15%;
+	;
+}
+
+.buttonsCompanyBoxRight {
+	display: flex;
+	flex: 1;
+	justify-content: space-evenly;
+	padding-top: 15%;
+}
+
+.editCompanyBox {
+	width: 450px;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin: 5px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.deleteCompanyBox {
+	width: 450px;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin: 5px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.deleteCompanyBox>p,
+h3 {
+	color: primary;
+	text-align: left;
+	padding-inline: 25px;
+}
+
+.divContracts {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding-bottom: 100px;
+	min-height: fit-content;
+	text-align: center;
+}
+
+.addContractBox {
+	width: 60%;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	backface-visibility: hidden;
+	padding-top: 10px;
+	margin-left: 20%;
+}
+
+.divContract {
+	width: 60%;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	background-color: white;
+	backface-visibility: hidden;
+	margin: 15px;
+}
+
+.divContractWithCompanies {
+	width: 800px;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	background-color: white;
+	backface-visibility: hidden;
+	margin: 15px;
+}
+.divDetails {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 0.875rem;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.63;
+    letter-spacing: 0.01071em;
+	padding-left: 16px;
+	margin-top: 5px;
+}
+
+.divDetailsLeft {
+	flex: 7;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.divDetailsRight {
+	flex: 7.5;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.divContractRight {
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	margin-right: 1%;
+}
+
+.divContractRightButtons {
+	width: 45%;
+	display: flex;
+	flex:9;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.divKey {
+	width: 95%;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	height: 100px;
+	margin-left: 16px;
+	margin-block-end: 10px;
+	margin-top: 2px;
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 0.875rem;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+
+.editContractBox {
+	width: 90%;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	backface-visibility: hidden;
+	padding-top: 10px;
+	margin: 5%;
+}
+
+.deleteContractBox {
+	width: 50%;
+	border-radius: 10px;
+	border: 1px solid rgb(216, 220, 222);
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-inline: 25%;
+	margin-bottom: 20px;
+}
+
+.divUser {
+	width: 80%;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	background-color: white;
+	backface-visibility: hidden;
+	margin: 15px;
+}
+
+.divUserWithCompanies {
+	width: 900px;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	background-color: white;
+	backface-visibility: hidden;
+	margin: 15px;
+}
+
+
+.addUserBox {
+	width: 60%;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	backface-visibility: hidden;
+	margin-left: 20%;
+}
+
+.editUserBox {
+	width: 60%;
+	border: 1px solid rgb(216, 220, 222);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: white;
+	backface-visibility: hidden;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.divTableCell {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	padding: 5px;
+}
