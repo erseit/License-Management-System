@@ -75,7 +75,7 @@ gradle quarkusDev
 
 3. Now server is available on `http://localhost:8811`.
 
-- To change Port Nummer go to [application.properties]()
+- To change Port Nummer and disable CORS Policy for Frontend go to [application.properties](https://github.com/erseit/License-Management-System/blob/main/src/main/resources/application.properties) in /src/main/resources
 
 4. Build frontend
 
@@ -83,6 +83,8 @@ gradle quarkusDev
 ```
 cd [path_to_root_folder]/tabs
 ```
+
+- To Change Backend Endpoint if it's necessery, go to [.env](https://github.com/erseit/License-Management-System/blob/main/tabs/.env) in /client/tabs
 - If it is the first run:
 ```
 npm install
