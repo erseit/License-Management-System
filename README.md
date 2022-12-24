@@ -67,6 +67,8 @@ git clone https://github.com/erseit/License-Management-System.git
 cd [path_to_root_folder]
 ```
 
+- To change Port Nummer, disable CORS Policy for Frontend, give the URL, username, password of the MySQL RDBMS go to [application.properties](https://github.com/erseit/License-Management-System/blob/main/src/main/resources/application.properties) in /src/main/resources
+
 - Start Backend with gradle quarkus
 ```
 gradle quarkusDev
@@ -74,7 +76,7 @@ gradle quarkusDev
 
 3. Now server is available on `http://localhost:8811`.
 
-- To change Port Nummer, disable CORS Policy for Frontend, give the URL, username, password of the MySQL RDBMS go to [application.properties](https://github.com/erseit/License-Management-System/blob/main/src/main/resources/application.properties) in /src/main/resources
+
 
 4. Build frontend
 
@@ -83,7 +85,7 @@ gradle quarkusDev
 cd [path_to_root_folder]/tabs
 ```
 
-- To Change Backend Endpoint if it's necessery, go to [.env](https://github.com/erseit/License-Management-System/blob/main/tabs/.env) in /client/tabs
+- If it's necessary, to change the backend endpoint go to [.env](https://github.com/erseit/License-Management-System/blob/main/tabs/.env) in /client/tabs
 - If it is the first run:
 ```
 npm install
