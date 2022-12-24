@@ -58,7 +58,7 @@ Administrative users may edit other users profiles, add users, and delete them. 
 1. Clone the Git-Repository.
 
 ```
-git clone https://github.com/erseit/LicenseManagementSystem
+git clone https://github.com/erseit/License-Management-System.git
 ```
 
 2. Build backend
