@@ -74,7 +74,7 @@ gradle quarkusDev
 
 3. Now server is available on `http://localhost:8811`.
 
-- To change Port Nummer and disable CORS Policy for Frontend go to [application.properties](https://github.com/erseit/License-Management-System/blob/main/src/main/resources/application.properties) in /src/main/resources
+- To change Port Nummer, disable CORS Policy for Frontend, give the URL, username, password of the MySQL RDBMS go to [application.properties](https://github.com/erseit/License-Management-System/blob/main/src/main/resources/application.properties) in /src/main/resources
 
 4. Build frontend
 
