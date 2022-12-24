@@ -86,7 +86,7 @@ cd [path_to_root_folder]/tabs
 ```
 
 - If it's necessary, to change the backend endpoint go to [.env](https://github.com/erseit/License-Management-System/blob/main/tabs/.env) in /client/tabs
-- If it is the first run:
+- If it is the first run, to install all libraries give the command. For next executions, you can ignore this step:
 ```
 npm install
 ``````
