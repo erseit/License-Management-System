@@ -4,7 +4,9 @@
 
 ## 📌 - Description
 
-It is a Three Tier Web Application which is to be integrated with Microsoft Teams App as Registerkarte. You can manage customer companies. All customer related management is to be reserved to administrators. Administrative users may edit customer profiles, add customers, and delete them. A company can have many users and service contracts. Administrative users may edit other users profiles, add users, and delete them. They may also add, edit and delete service contracts. A service contract is bound to a customer; typically a customer can have many service contracts. A service contract is associated with at most two users from the associated company. Users associated with a service contract can see its details, but can not be able to change them.
+It is a Three Tier Web Application which is to be integrated with Microsoft Teams App as Registerkarte. You can manage customer companies. All customer related management is to be reserved to administrators. Administrative users may edit customer profiles, add customers, and delete them. A company can have many users and service contracts. In a list view manage an administrative user all users and contracts of all companies. Using a filter you can search for the name of the company in the page. 
+
+Administrative users may edit other users profiles, add users, and delete them. They may also add, edit and delete service contracts. A service contract is bound to a customer; typically a customer can have many service contracts. A service contract is associated with at most two users from the associated company. Users associated with a service contract can see its details, but can not be able to change them.
 
 ## 📚 - Structure
 
