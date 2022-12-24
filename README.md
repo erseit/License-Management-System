@@ -25,7 +25,6 @@ Administrative users may edit other users profiles, add users, and delete them. 
 │   │   ├── /users
 │   │   |   |   └── ...
 │   ├── .env            # Configurations and environment variables
-│   ├── next.config.js  # All configurations and environment variables for frontend
 │   ├── ...
 
 │   # Backend
